@@ -84,22 +84,12 @@
   licenseUrl: http://www.apache.org/licenses/LICENSE-2.0.txt
   url: https://github.com/reactivex/rxjava/
 
-# Ignore
-- artifact: android.arch.core:+:+
-  skip: true
-- artifact: android.arch.lifecycle:+:+
-  skip: true
+# Skips
 - artifact: com.android.support:+:+
   skip: true
-- artifact: com.android.support.constraint:constraint-layout-solver:+
-  skip: true
-- artifact: com.squareup.okhttp3:okhttp:+
-  skip: true
-- artifact: com.squareup.okio:okio:+
+- artifact: com.android.support.constraint:+:+
   skip: true
 - artifact: org.jetbrains.kotlin:+:+
   skip: true
-- artifact: org.jetbrains:annotations:+
-  skip: true
-- artifact: org.reactivestreams:reactive-streams:+
+- artifact: org.jetbrains:+:+
   skip: true

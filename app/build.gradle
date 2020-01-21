@@ -1,6 +1,9 @@
+plugins {
+    id 'com.cookpad.android.plugin.license-tools' version '1.1.0'
+}
+
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
-apply plugin: 'com.cookpad.android.licensetools'
 
 android {
     compileSdkVersion 29

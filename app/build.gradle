@@ -35,11 +35,11 @@ android {
 
 licenseTools {
     ignoredGroups = [
-            'android.arch.core',
-            'android.arch.lifecycle',
-            'com.squareup.okhttp3',
-            'com.squareup.okio',
-            'org.reactivestreams'
+        'android.arch.core',
+        'android.arch.lifecycle',
+        'com.squareup.okhttp3',
+        'com.squareup.okio',
+        'org.reactivestreams'
     ]
 }
 

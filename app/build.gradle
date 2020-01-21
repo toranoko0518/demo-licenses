@@ -29,6 +29,9 @@ android {
     lintOptions {
         disable 'GoogleAppIndexingWarning'
     }
+    sourceSets.all {
+        java.srcDirs += "src/$name/kotlin"
+    }
 }
 
 licenseTools {

@@ -1,8 +1,8 @@
 package io.github.toranoko0518.demo.licenses
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_main.*
+import androidx.appcompat.app.AppCompatActivity
+import kotlinx.android.synthetic.main.activity_main.webView
 
 class MainActivity : AppCompatActivity() {
 

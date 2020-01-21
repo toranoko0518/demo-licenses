@@ -1,8 +1,8 @@
 package io.github.toranoko0518.demo.licenses
 
 import android.os.Bundle
+import android.webkit.WebView
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_main.webView
 
 class MainActivity : AppCompatActivity() {
 
@@ -10,6 +10,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        webView.loadUrl("file:///android_asset/licenses.html")
+        findViewById<WebView>(R.id.webView).loadUrl("file:///android_asset/licenses.html")
     }
 }
